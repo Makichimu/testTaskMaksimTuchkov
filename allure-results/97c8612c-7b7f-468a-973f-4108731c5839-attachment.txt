@@ -1,0 +1,32 @@
+Connected to server
+Received push message: { type: 'locale', data: 'en' }
+Locale message valid: data is "en" 
+Received push message: { type: 'dns', data: '8.8.8.8' }
+Push message valid: dns 
+Received push message: { type: 'token', data: 'false' }
+Push message valid: token 
+Received push message: { type: 'time', data: 1740406862358 }
+Push message valid: time 
+Received push message: {
+  secret_key: '$2b$05$5wdf6D9JQ6yA/jSdJ9v3vOlbaAx6KgaFhd/WqReOEUaxz4w4LYG9W'
+}
+Secret message valid 
+Updated registrationPayload: {
+  secret_key: '$2b$05$5wdf6D9JQ6yA/jSdJ9v3vOlbaAx6KgaFhd/WqReOEUaxz4w4LYG9W',
+  type: 'AUTH:register',
+  name: 'TestUser@test.test',
+  password: 'password123'
+}
+Sending registrationPayload: {
+  secret_key: '$2b$05$5wdf6D9JQ6yA/jSdJ9v3vOlbaAx6KgaFhd/WqReOEUaxz4w4LYG9W',
+  type: 'AUTH:register',
+  name: 'TestUser862105@test.test',
+  password: 'password123'
+}
+Received registration response: {
+  success: true,
+  message: "User 'TestUser862105@test.test' successfully registered!"
+}
+Registration successful: User 'TestUser862105@test.test' successfully registered!
+Registered credentials: { name: 'TestUser862105@test.test', password: 'password123' }
+Disconnected from server
